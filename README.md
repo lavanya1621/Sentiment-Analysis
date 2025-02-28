@@ -14,6 +14,3 @@ Right now, the model is trained on only 5 reviews, so it's not performing at its
 
 This project demonstrates **integration of multiple frameworks** and a **modular design** that could be improved with **larger datasets and better embeddings**.  
 
----
-
-Let me know if you want any more changes! 🚀
