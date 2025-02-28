@@ -1,12 +1,19 @@
-Hybrid Sentiment Analysis with PyTorch, SpaCy & Google's API
-Overview
-This project implements a hybrid sentiment analysis system using PyTorch, SpaCy, and Google's Natural Language API. It classifies text as positive, negative, or neutral, combining a custom LSTM model with Google's API for comparison. Right now, it's trained on only 5 examples, so performance is limited—but the focus is on demonstrating skills in these AI libraries.
+# **Hybrid Sentiment Analysis System**  
 
-How It Works
-Preprocessing with SpaCy – Tokenization, lemmatization, and stopword removal.
-Custom Dataset Handling – A ReviewDataset class converts text into numerical data.
-Sentiment Classification – A PyTorch LSTM model predicts sentiment.
-Google API Integration – Reviews are also analyzed using Google’s Natural Language API to compare results.
-Entity Extraction – Both SpaCy and Google’s API extract key terms related to sentiment.
-Current Performance
-Since the model is trained on just 5 reviews, it isn’t highly accurate yet. The PyTorch model misclassifies some reviews, while Google’s API is more reliable. However, this project highlights skills in PyTorch, NLP, and API integration. With more training data and better embeddings, the system could become production-ready. 🚀
+## **Summary**  
+This project implements a **hybrid sentiment analysis system** combining **PyTorch, SpaCy, and Google's Natural Language API**. It features a **custom LSTM neural network** that classifies reviews as **positive, negative, or neutral**, while also using **Google's API for comparison**.  
+
+Right now, the model is trained on only 5 reviews, so it's not performing at its best. The key focus of this project is showcasing my **skills in PyTorch, SpaCy, and integrating APIs**.  
+
+## **How It Works**  
+- **Text Processing:** Uses **SpaCy** for **tokenization, lemmatization, and stopword removal**.  
+- **Feature Conversion:** A **custom ReviewDataset class** converts processed text into numerical features.  
+- **Neural Network:** A **PyTorch-based LSTM model** with **embedding layers** and **LSTM units** to understand text sequences.  
+- **Google API Comparison:** Google's Natural Language API is used to compare the **model's predictions** and extract **named entities**.  
+- **Current Performance:** Since it's trained on only **5 reviews**, the PyTorch model misclassifies some cases, whereas **Google's API performs better**. This highlights the importance of a **hybrid approach** and the potential for improvement with more training data.  
+
+This project demonstrates **integration of multiple frameworks** and a **modular design** that could be improved with **larger datasets and better embeddings**.  
+
+---
+
+Let me know if you want any more changes! 🚀
